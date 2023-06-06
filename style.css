@@ -1,0 +1,69 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     background-color: #b16767;
+     height: 100vh;
+     place-items: center;
+
+ }
+
+ h1 {
+     color: #511c68;
+     font-weight: 700;
+     font-style: italic;
+     text-shadow: 2px 1px 2px;
+     text-decoration: underline;
+     font-stretch: expanded;
+     font-size: 60px;
+
+ }
+
+ .aaa {
+     width: 400px;
+     height: 450px;
+     background-color: rgb(220, 125, 139);
+     border: 10px solid rgb(18, 2, 42);
+     border-radius: 6px;
+     margin: auto;
+     border-radius: 15px;
+ }
+
+
+ input[type="text"] {
+     width: 88%;
+     position: relative;
+     height: 80px;
+     top: 5px;
+     text-align: right;
+     padding: 3px 6px;
+     outline: none;
+     font-size: 40px;
+     border: 10px solid rgb(34, 10, 82);
+     display: flex;
+     margin: auto;
+     border-radius: 25px;
+     color: black;
+ }
+
+ input[type="button"] {
+     width: 90px;
+     padding: 2px;
+     margin: 2px 0px;
+     position: relative;
+     left: 13px;
+     top: 20px;
+     height: 60px;
+     font-size: 18px;
+     background-color: rgb(127, 64, 75);
+     border-radius: 20px;
+     color: white;
+     border: 5px solid rgb(34, 10, 82);
+ }
+
+ input[type='button']:hover {
+     background-color: rgb(60, 9, 21);
+     color: white;
+ }
